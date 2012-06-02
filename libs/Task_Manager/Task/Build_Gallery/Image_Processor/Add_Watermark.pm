@@ -17,7 +17,7 @@ sub new {
 
 	my $params = $h{params};
 
-	my $self = $class::SUPER->new(
+	my $self = $class->SUPER::new(
 		params => $params
 	);
 
