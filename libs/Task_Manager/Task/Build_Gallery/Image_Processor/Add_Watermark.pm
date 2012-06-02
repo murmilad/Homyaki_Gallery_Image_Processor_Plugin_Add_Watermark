@@ -4,7 +4,7 @@ use strict;
 
 use Imager;
 
-use Homyaki::Imager;
+use Homyaki::Imager qw(put_watermark);
 use Homyaki::Logger;
 
 use constant WATERMARK_PATH       => 'sign.bmp';
